@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-bot-template",
+  "version": "1.0.0",
+  "description": "A robust, strictly typed WhatsApp bot template using whatsapp-web.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w & node --watch dist/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "dotenv": "^16.4.5",
+    "ioredis": "^6.0.0",
+    "mongoose": "^9.9.2",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/pino": "^7.0.4",
+    "@types/qrcode-terminal": "^0.12.2",
+    "typescript": "^5.9.3"
+  }
+}
