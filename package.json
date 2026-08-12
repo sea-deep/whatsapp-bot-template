@@ -18,7 +18,7 @@
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc14",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.4.2",
     "ioredis": "^6.0.0",
     "mongoose": "^9.9.2",
     "pino": "^10.3.1",
